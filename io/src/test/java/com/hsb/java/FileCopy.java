@@ -8,7 +8,6 @@ import org.junit.Test;
 import java.io.*;
 import java.nio.channels.FileChannel;
 import java.nio.file.*;
-import java.util.Objects;
 
 /**
  * Created by heshengbang on 2018/6/2.
@@ -66,6 +65,4 @@ public class FileCopy {
         // copy(InputStream in, Path target, CopyOption... options)
         System.out.println(Files.copy(new FileInputStream(new File("c:\\test.txt")), Paths.get("d:\\text_files3.txt"), StandardCopyOption.REPLACE_EXISTING));
     }
-
-
 }
