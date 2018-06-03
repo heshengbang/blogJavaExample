@@ -7,7 +7,9 @@ import org.junit.Test;
 
 import java.io.*;
 import java.nio.channels.FileChannel;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 /**
  * Created by heshengbang on 2018/6/2.
