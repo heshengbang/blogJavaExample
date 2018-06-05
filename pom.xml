@@ -32,7 +32,9 @@
     </build>
     <modules>
         <module>io</module>
-        <module>hashmap</module>
+        <module>map</module>
+        <module>myreflect</module>
+        <module>springbean</module>
     </modules>
 
 </project>

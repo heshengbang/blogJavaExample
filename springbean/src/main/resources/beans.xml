@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean id="beanPostProcessor" class="com.hsb.java.blog.MyBeanPostProcessor">
+    </bean>
+
+    <bean id="instantiationAwareBeanPostProcessor" class="com.hsb.java.blog.MyInstantiationAwareBeanPostProcessorAdapter">
+    </bean>
+
+    <bean id="beanFactoryPostProcessor" class="com.hsb.java.blog.MyBeanFactoryPostProcessor">
+    </bean>
+
+    <bean id="configurationClassPostProcessor" class="com.hsb.java.blog.MyConfigurationClassPostProcessor">
+    </bean>
+
+    <bean id="aspectJWeavingEnabler" class="com.hsb.java.blog.MyAspectJWeavingEnabler">
+    </bean>
+
+    <bean id="customAutowireConfigurer" class="com.hsb.java.blog.MyCustomAutowireConfigurer">
+    </bean>
+
+    <bean id="person" class="com.hsb.java.blog.Person" init-method="myInit"
+          destroy-method="myDestroy">
+        <property name="name" value="heshengbang"/>
+        <property name="address" value="Earth"/>
+        <property name="phone" value="123456" />
+    </bean>
+
+</beans>

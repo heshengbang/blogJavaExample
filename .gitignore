@@ -1,3 +1,5 @@
 .idea/
-blogJavaExample.iml
+*.iml
 */target/
+*/*.iml
+out
