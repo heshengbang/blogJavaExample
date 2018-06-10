@@ -35,6 +35,7 @@
         <module>map</module>
         <module>myreflect</module>
         <module>springbean</module>
+        <module>concurrent</module>
     </modules>
 
 </project>
