@@ -36,6 +36,7 @@
         <module>myreflect</module>
         <module>springbean</module>
         <module>concurrent</module>
+        <module>hibernateDemo</module>
     </modules>
 
 </project>
