@@ -45,6 +45,7 @@
         <module>concurrent</module>
         <module>hibernateDemo</module>
         <module>mybatisDemo</module>
+        <module>thoughtswork</module>
     </modules>
 
 </project>
